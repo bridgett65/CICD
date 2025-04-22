@@ -1,0 +1,13 @@
+name: test class
+on: push
+jobs: 
+  first-job: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: first-step
+        run: echo "Hi Nagasha"
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: second-step
+        run: echo "I love you mammy"
